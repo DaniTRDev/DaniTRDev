@@ -3,8 +3,8 @@
 struct DaniTRDev
 {
 
-  std::string_view m_Name { "Dani" };
-  std::initializer_list<std::string_view> m_KnownAs = 
+  const char* m_Name { "Dani" };
+  std::initializer_list<const char*> m_KnownAs = 
   {
     "Mr. Metal Punch",
     "Snoopy Do Do",
@@ -16,7 +16,7 @@ struct DaniTRDev
   std::uint32_t m_Age { 17 };
   
   /*SkillName, Years in it*/
-  std::map<std::string_view, std::uint32_t> m_Skills =
+  std::map<const char*, std::uint32_t> m_Skills =
   {
     { "C++", 6                 },
     { "C", 3                   },
