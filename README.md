@@ -6,6 +6,7 @@ struct DaniTRDev
   const char* m_Name { "Dani" };
   std::initializer_list<const char*> m_KnownAs = 
   {
+    "OsiKaSuKe", //actual
     "Mr. Metal Punch",
     "Snoopy Do Do",
     "C0D3X"
