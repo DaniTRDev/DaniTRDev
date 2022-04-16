@@ -1,16 +1,31 @@
-### Hi there 👋
+```cpp
 
-<!--
-**DaniTRDev/DaniTRDev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+struct DaniTRDev
+{
 
-Here are some ideas to get you started:
+  std::string_view m_Name { "Dani" };
+  std::initializer_list<std::string_view> m_KnownAs = 
+  {
+    "Mr. Metal Punch",
+    "Snoopy Do Do",
+    "C0D3X"
+  }
+  
+  std::string_view m_Location { "Spain" }
+  
+  std::uint32_t m_Age { 17 };
+  
+  /*SkillName, Years in it*/
+  std::map<std::string_view, std::uint32_t> m_Skills =
+  {
+    { "C++", 6                 },
+    { "C", 3                   },
+    { "Node.Js", 2             },
+    { "HTML & CSS", 1          },
+    { "Reverse engineering", 5 }
+  
+  }
+  
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```
