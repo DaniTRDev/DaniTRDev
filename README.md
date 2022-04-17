@@ -12,7 +12,7 @@ struct DaniTRDev
     "C0D3X"
   }
   
-  std::string_view m_Location { "Spain" }
+  std::string_view m_Location { "Spain" };
   
   std::uint32_t m_Age { 17 };
   
