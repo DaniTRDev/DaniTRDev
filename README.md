@@ -14,16 +14,16 @@ struct DaniTRDev
   
   std::string_view m_Location { "Spain" };
   
-  std::uint32_t m_Age { 17 };
+  std::uint32_t m_Age { 18 };
   
   /*SkillName, Years in it*/
   std::map<const char*, std::uint32_t> m_Skills =
   {
-    { "C++", 6                 },
-    { "C", 3                   },
-    { "Node.Js", 2             },
-    { "HTML & CSS", 1          },
-    { "Reverse engineering", 5 }
+    { "C++", 7                 },
+    { "C", 4                   },
+    { "Node.Js", 3             },
+    { "HTML & CSS", 2          },
+    { "Reverse engineering", 6 }
   
   }
   
